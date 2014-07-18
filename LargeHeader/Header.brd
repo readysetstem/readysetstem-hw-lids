@@ -77,8 +77,8 @@
 <text x="27.305" y="8.89" size="1.27" layer="21">9/MISO</text>
 <text x="27.305" y="6.35" size="1.27" layer="21">11/CLK</text>
 <text x="27.305" y="3.81" size="1.27" layer="21">GND</text>
-<text x="21.59" y="35.56" size="1.27" layer="21" align="top-right">5V</text>
-<text x="21.59" y="33.02" size="1.27" layer="21" align="top-right">5V</text>
+<text x="22.225" y="35.56" size="1.27" layer="21" align="top-right">5V</text>
+<text x="22.225" y="33.02" size="1.27" layer="21" align="top-right">5V</text>
 <text x="22.225" y="27.94" size="1.27" layer="21" align="top-right">14/TX</text>
 <text x="22.225" y="25.4" size="1.27" layer="21" align="top-right">15/RX</text>
 <text x="22.225" y="22.86" size="1.27" layer="21" align="top-right">18</text>
@@ -133,6 +133,10 @@ will not be printed on the PCB</text>
 <vertex x="11.43" y="38.1" curve="90"/>
 <vertex x="15.24" y="41.91" curve="90"/>
 </polygon>
+<text x="6.35" y="34.29" size="1.778" layer="21">J1</text>
+<text x="29.845" y="1.905" size="1.778" layer="22" rot="MR0">J2</text>
+<text x="31.115" y="48.895" size="1.778" layer="22" rot="MR0">J3</text>
+<text x="3.175" y="48.26" size="1.778" layer="22" rot="MR0">J4</text>
 </plain>
 <libraries>
 <library name="pinhead">
