@@ -14099,10 +14099,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <label x="302.26" y="281.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$15" gate="G$1" pin="PB4"/>
-<wire x1="302.26" y1="101.6" x2="302.26" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="101.6" x2="307.34" y2="101.6" width="0.1524" layer="91"/>
-<label x="307.34" y="101.6" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$15" gate="G$1" pin="PB3"/>
+<wire x1="297.18" y1="104.14" x2="297.18" y2="99.06" width="0.1524" layer="91"/>
+<label x="297.18" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="MISO3/MOSI4" class="0">
@@ -14124,9 +14123,10 @@ diameter 5 mm, grid 2.54 mm</description>
 <label x="99.06" y="96.52" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$15" gate="G$1" pin="PB3"/>
-<wire x1="297.18" y1="104.14" x2="297.18" y2="99.06" width="0.1524" layer="91"/>
-<label x="297.18" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$15" gate="G$1" pin="PB4"/>
+<wire x1="302.26" y1="104.14" x2="302.26" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="99.06" x2="317.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="317.5" y="99.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$33" class="0">
