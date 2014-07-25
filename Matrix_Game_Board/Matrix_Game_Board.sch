@@ -12249,7 +12249,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="J4" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R9" library="resistor" deviceset="R-US_" device="R0805" value="Bypass"/>
 <part name="R10" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="SUPPLY25" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12378,7 +12377,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="J4" gate="G$1" x="259.08" y="193.04"/>
 <instance part="GND16" gate="1" x="269.24" y="182.88"/>
 <instance part="SUPPLY24" gate="G$1" x="269.24" y="203.2"/>
-<instance part="R9" gate="G$1" x="307.34" y="93.98"/>
 <instance part="R10" gate="G$1" x="281.94" y="170.18" rot="R90"/>
 <instance part="SUPPLY25" gate="G$1" x="281.94" y="177.8"/>
 <instance part="GND32" gate="1" x="452.12" y="27.94" rot="R270"/>
@@ -13210,18 +13208,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="165.1" y1="-22.86" x2="182.88" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI" class="0">
-<segment>
-<wire x1="426.72" y1="-7.62" x2="444.5" y2="-7.62" width="0.1524" layer="91"/>
-<label x="444.5" y="-7.62" size="1.016" layer="95" rot="MR180" xref="yes"/>
-<pinref part="PI-HEADER" gate="A" pin="19"/>
-</segment>
-<segment>
-<pinref part="U$11" gate="G$1" pin="PB4"/>
-<wire x1="104.14" y1="96.52" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
-<label x="104.14" y="96.52" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="MISO" class="0">
 <segment>
 <wire x1="426.72" y1="-10.16" x2="454.66" y2="-10.16" width="0.1524" layer="91"/>
@@ -13239,15 +13225,15 @@ diameter 5 mm, grid 2.54 mm</description>
 <label x="314.96" y="276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="312.42" y1="93.98" x2="317.5" y2="93.98" width="0.1524" layer="91"/>
-<label x="317.5" y="93.98" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="193.04" x2="45.72" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="193.04" x2="45.72" y2="195.58" width="0.1524" layer="91"/>
 <label x="45.72" y="195.58" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="PB4"/>
+<wire x1="104.14" y1="96.52" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
+<label x="104.14" y="96.52" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -14062,18 +14048,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="287.02" y1="195.58" x2="327.66" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI1" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="68.58" y1="370.84" x2="71.12" y2="370.84" width="0.1524" layer="91"/>
-<label x="71.12" y="370.84" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$9" gate="G$1" pin="PB3"/>
-<wire x1="96.52" y1="281.94" x2="96.52" y2="276.86" width="0.1524" layer="91"/>
-<label x="96.52" y="276.86" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="MISO1/MOSI2" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -14126,11 +14100,8 @@ diameter 5 mm, grid 2.54 mm</description>
 </segment>
 <segment>
 <pinref part="U$15" gate="G$1" pin="PB4"/>
-<wire x1="302.26" y1="93.98" x2="302.26" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="101.6" x2="302.26" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="101.6" x2="307.34" y2="101.6" width="0.1524" layer="91"/>
-<junction x="302.26" y="101.6"/>
 <label x="307.34" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -14262,6 +14233,23 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="U$24" gate="G$1" pin="P$1"/>
 <wire x1="408.94" y1="-43.18" x2="401.32" y2="-43.18" width="0.1524" layer="91"/>
 <label x="401.32" y="-43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<wire x1="426.72" y1="-7.62" x2="444.5" y2="-7.62" width="0.1524" layer="91"/>
+<label x="444.5" y="-7.62" size="1.016" layer="95" rot="MR180" xref="yes"/>
+<pinref part="PI-HEADER" gate="A" pin="19"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="68.58" y1="370.84" x2="71.12" y2="370.84" width="0.1524" layer="91"/>
+<label x="71.12" y="370.84" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="PB3"/>
+<wire x1="96.52" y1="281.94" x2="96.52" y2="276.86" width="0.1524" layer="91"/>
+<label x="96.52" y="276.86" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
