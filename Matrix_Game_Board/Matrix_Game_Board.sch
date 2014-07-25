@@ -12192,8 +12192,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0805" value="Bypass"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="SUPPLY22" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U$25" library="ScottSilver" deviceset="LM386" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12218,8 +12216,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="J2" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R4" library="resistor" deviceset="R-US_" device="R0805" value="Bypass"/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U$8" library="ScottSilver" deviceset="8X8_LED_MATRIX" device=""/>
 <part name="U$10" library="ScottSilver" deviceset="ULN2803AFWG" device=""/>
@@ -12234,7 +12230,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="J3" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U$13" library="ScottSilver" deviceset="8X8_LED_MATRIX" device=""/>
 <part name="U$14" library="ScottSilver" deviceset="ULN2803AFWG" device=""/>
@@ -12249,7 +12244,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="J4" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="SUPPLY25" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12274,6 +12268,12 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="U$26" library="ScottSilver" deviceset="SMDTACTILE" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="Bypass"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="Bypass"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="100K"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="100K"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="100K"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="100K"/>
 </parts>
 <sheets>
 <sheet>
@@ -12320,8 +12320,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="SUPPLY20" gate="G$1" x="231.14" y="-17.78"/>
 <instance part="GND23" gate="1" x="215.9" y="-33.02"/>
 <instance part="GND26" gate="1" x="398.78" y="10.16" rot="MR90"/>
-<instance part="R3" gate="G$1" x="106.68" y="271.78"/>
-<instance part="R6" gate="G$1" x="81.28" y="347.98" rot="R90"/>
 <instance part="SUPPLY22" gate="G$1" x="81.28" y="355.6"/>
 <instance part="U$25" gate="G$1" x="477.52" y="182.88"/>
 <instance part="GND27" gate="1" x="429.26" y="185.42" rot="R270"/>
@@ -12346,8 +12344,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="J2" gate="G$1" x="256.54" y="373.38"/>
 <instance part="GND8" gate="1" x="266.7" y="363.22"/>
 <instance part="SUPPLY8" gate="G$1" x="266.7" y="383.54"/>
-<instance part="R4" gate="G$1" x="304.8" y="276.86"/>
-<instance part="R5" gate="G$1" x="279.4" y="350.52" rot="R90"/>
 <instance part="SUPPLY9" gate="G$1" x="279.4" y="358.14"/>
 <instance part="U$8" gate="G$1" x="185.42" y="175.26"/>
 <instance part="U$10" gate="G$1" x="185.42" y="129.54" rot="R90"/>
@@ -12362,7 +12358,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="J3" gate="G$1" x="60.96" y="190.5"/>
 <instance part="GND12" gate="1" x="71.12" y="180.34"/>
 <instance part="SUPPLY13" gate="G$1" x="71.12" y="200.66"/>
-<instance part="R8" gate="G$1" x="83.82" y="167.64" rot="R90"/>
 <instance part="SUPPLY14" gate="G$1" x="83.82" y="175.26"/>
 <instance part="U$13" gate="G$1" x="383.54" y="177.8"/>
 <instance part="U$14" gate="G$1" x="383.54" y="132.08" rot="R90"/>
@@ -12377,7 +12372,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="J4" gate="G$1" x="259.08" y="193.04"/>
 <instance part="GND16" gate="1" x="269.24" y="182.88"/>
 <instance part="SUPPLY24" gate="G$1" x="269.24" y="203.2"/>
-<instance part="R10" gate="G$1" x="281.94" y="170.18" rot="R90"/>
 <instance part="SUPPLY25" gate="G$1" x="281.94" y="177.8"/>
 <instance part="GND32" gate="1" x="452.12" y="27.94" rot="R270"/>
 <instance part="GND33" gate="1" x="452.12" y="43.18" rot="R270"/>
@@ -12402,6 +12396,12 @@ diameter 5 mm, grid 2.54 mm</description>
 <instance part="U$26" gate="G$1" x="421.64" y="-71.12"/>
 <instance part="GND38" gate="1" x="436.88" y="-55.88"/>
 <instance part="GND39" gate="1" x="436.88" y="-81.28"/>
+<instance part="R3" gate="G$1" x="106.68" y="271.78"/>
+<instance part="R4" gate="G$1" x="304.8" y="276.86"/>
+<instance part="R6" gate="G$1" x="81.28" y="347.98" rot="R90"/>
+<instance part="R5" gate="G$1" x="279.4" y="350.52" rot="R90"/>
+<instance part="R8" gate="G$1" x="281.94" y="170.18" rot="R90"/>
+<instance part="R9" gate="G$1" x="83.82" y="167.64" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12514,9 +12514,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="SUPPLY22" gate="G$1" pin="VCC"/>
 <wire x1="81.28" y1="355.6" x2="81.28" y2="353.06" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="AVCC"/>
@@ -12539,9 +12539,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
 <wire x1="279.4" y1="358.14" x2="279.4" y2="355.6" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="AVCC"/>
@@ -12564,9 +12564,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
 <wire x1="83.82" y1="175.26" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$15" gate="G$1" pin="AVCC"/>
@@ -12589,9 +12589,9 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="SUPPLY24" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="SUPPLY25" gate="G$1" pin="VCC"/>
 <wire x1="281.94" y1="177.8" x2="281.94" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$25" gate="G$1" pin="VS"/>
@@ -13028,13 +13028,13 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="U$11" gate="G$1" pin="PC6"/>
 <wire x1="83.82" y1="152.4" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
 <label x="83.82" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$15" gate="G$1" pin="PC6"/>
 <wire x1="281.94" y1="154.94" x2="281.94" y2="165.1" width="0.1524" layer="91"/>
 <label x="281.94" y="165.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
@@ -13215,14 +13215,14 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="PI-HEADER" gate="A" pin="21"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="271.78" x2="116.84" y2="271.78" width="0.1524" layer="91"/>
 <label x="116.84" y="271.78" size="1.778" layer="95" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="309.88" y1="276.86" x2="314.96" y2="276.86" width="0.1524" layer="91"/>
 <label x="314.96" y="276.86" size="1.778" layer="95" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -14058,11 +14058,11 @@ diameter 5 mm, grid 2.54 mm</description>
 <segment>
 <pinref part="U$9" gate="G$1" pin="PB4"/>
 <wire x1="101.6" y1="271.78" x2="101.6" y2="279.4" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="279.4" x2="101.6" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="279.4" x2="109.22" y2="279.4" width="0.1524" layer="91"/>
 <junction x="101.6" y="279.4"/>
 <label x="109.22" y="279.4" size="1.778" layer="95" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
@@ -14092,11 +14092,11 @@ diameter 5 mm, grid 2.54 mm</description>
 <segment>
 <pinref part="U$6" gate="G$1" pin="PB4"/>
 <wire x1="299.72" y1="276.86" x2="299.72" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="299.72" y1="281.94" x2="299.72" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="281.94" x2="302.26" y2="281.94" width="0.1524" layer="91"/>
 <junction x="299.72" y="281.94"/>
 <label x="302.26" y="281.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$15" gate="G$1" pin="PB3"/>
