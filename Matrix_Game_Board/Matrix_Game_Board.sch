@@ -13128,6 +13128,11 @@ diameter 5 mm, grid 2.54 mm</description>
 <wire x1="292.1" y1="104.14" x2="292.1" y2="99.06" width="0.1524" layer="91"/>
 <label x="292.1" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="PI-HEADER" gate="A" pin="24"/>
+<wire x1="419.1" y1="-12.7" x2="403.86" y2="-12.7" width="0.1524" layer="91"/>
+<label x="403.86" y="-12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="UP" class="0">
 <segment>
