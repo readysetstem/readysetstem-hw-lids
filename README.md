@@ -1,4 +1,4 @@
-raspberrystem-hw-lid-custom
+raspberrystem-hw-lids
 ===========================
 
-raspberrySTEM(TM) Lid Custom hardware schematics and related documents
+RaspberrySTEM(TM) Lids hardware schematics and related documents
