@@ -2081,21 +2081,9 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="9/MISO">
 <contactref element="P1" pad="21"/>
 <contactref element="U2" pad="PB4"/>
-<contactref element="U4" pad="PB4"/>
-<contactref element="U6" pad="PB4"/>
-<contactref element="U8" pad="PB4"/>
 <contactref element="PROG1" pad="1"/>
-<contactref element="PROG2" pad="1"/>
-<contactref element="PROG3" pad="1"/>
-<contactref element="PROG4" pad="1"/>
-<wire x1="133.35" y1="60.96" x2="143.51" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="123.19" y1="60.96" x2="133.35" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="113.03" y1="60.96" x2="123.19" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="135.89" y1="44.45" x2="133.35" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="95.51" y1="44.01" x2="113.03" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="63.76" y1="44.01" x2="95.51" y2="44.01" width="0" layer="19" extent="1-1"/>
-<wire x1="95.51" y1="12.26" x2="95.51" y2="44.01" width="0" layer="19" extent="1-1"/>
-<wire x1="63.76" y1="12.26" x2="63.76" y2="44.01" width="0" layer="19" extent="1-1"/>
+<wire x1="113.03" y1="60.96" x2="135.89" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="63.76" y1="44.01" x2="113.03" y2="60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="11/SCLK">
 <contactref element="P1" pad="23"/>
@@ -2666,19 +2654,11 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="MOSI1/MISO2">
 <contactref element="U2" pad="PB3"/>
 <contactref element="PROG1" pad="4"/>
-<contactref element="U4" pad="PB3"/>
-<contactref element="PROG2" pad="4"/>
-<contactref element="U6" pad="PB3"/>
-<contactref element="PROG3" pad="4"/>
-<contactref element="U8" pad="PB3"/>
-<contactref element="PROG4" pad="4"/>
-<wire x1="135.89" y1="58.42" x2="146.05" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="125.73" y1="58.42" x2="135.89" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="115.57" y1="58.42" x2="125.73" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="94.71" y1="44.01" x2="115.57" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="62.96" y1="44.01" x2="94.71" y2="44.01" width="0" layer="19" extent="1-1"/>
-<wire x1="94.71" y1="12.26" x2="94.71" y2="44.01" width="0" layer="19" extent="1-1"/>
-<wire x1="62.96" y1="12.26" x2="62.96" y2="44.01" width="0" layer="19" extent="1-1"/>
+<contactref element="U4" pad="PB4"/>
+<contactref element="PROG2" pad="1"/>
+<wire x1="115.57" y1="58.42" x2="123.19" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="95.51" y1="44.01" x2="115.57" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="62.96" y1="44.01" x2="95.51" y2="44.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M1_RESET">
 <contactref element="U2" pad="PC6"/>
@@ -2707,6 +2687,29 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="PROG4" pad="5"/>
 <wire x1="101.6" y1="20.535" x2="143.51" y2="55.88" width="0" layer="19" extent="1-1"/>
 <wire x1="92.31" y1="20.76" x2="101.6" y2="20.535" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MOSI2/MISO3">
+<contactref element="U4" pad="PB3"/>
+<contactref element="PROG2" pad="4"/>
+<contactref element="U6" pad="PB4"/>
+<contactref element="PROG3" pad="1"/>
+<wire x1="125.73" y1="58.42" x2="133.35" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="94.71" y1="44.01" x2="125.73" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="63.76" y1="12.26" x2="94.71" y2="44.01" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="MOSI3/MISO4">
+<contactref element="U6" pad="PB3"/>
+<contactref element="U8" pad="PB4"/>
+<contactref element="PROG4" pad="1"/>
+<contactref element="PROG3" pad="4"/>
+<wire x1="135.89" y1="58.42" x2="143.51" y2="60.96" width="0" layer="19" extent="1-1"/>
+<wire x1="95.51" y1="12.26" x2="135.89" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="62.96" y1="12.26" x2="95.51" y2="12.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="10/MISO">
+<contactref element="U8" pad="PB3"/>
+<contactref element="PROG4" pad="4"/>
+<wire x1="94.71" y1="12.26" x2="146.05" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

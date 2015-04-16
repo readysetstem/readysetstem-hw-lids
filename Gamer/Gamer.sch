@@ -12013,7 +12013,7 @@ Metric Code Size 5664</description>
 <wire x1="50.8" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="9/MISO" class="0">
+<net name="MOSI1/MISO2" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="PB4"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
@@ -12023,18 +12023,6 @@ Metric Code Size 5664</description>
 <label x="35.56" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="PROG2" gate="A" pin="1"/>
 <wire x1="50.8" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MOSI1/MISO2" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="PB3"/>
-<wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<label x="68.58" y="83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<label x="68.58" y="38.1" size="0.8128" layer="95" xref="yes"/>
-<pinref part="PROG2" gate="A" pin="4"/>
-<wire x1="58.42" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M2_COL0_SINK" class="0">
@@ -12251,6 +12239,18 @@ Metric Code Size 5664</description>
 <wire x1="35.56" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="MOSI2/MISO3" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PB3"/>
+<wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<label x="68.58" y="83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<label x="68.58" y="38.1" size="0.8128" layer="95" xref="yes"/>
+<pinref part="PROG2" gate="A" pin="4"/>
+<wire x1="58.42" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12458,30 +12458,6 @@ Metric Code Size 5664</description>
 <label x="35.56" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="PROG3" gate="A" pin="3"/>
 <wire x1="50.8" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="9/MISO" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="PB4"/>
-<wire x1="73.66" y1="91.44" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-<label x="73.66" y="83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<label x="35.56" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="PROG3" gate="A" pin="1"/>
-<wire x1="35.56" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MOSI1/MISO2" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="PB3"/>
-<wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
-<label x="68.58" y="83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<label x="68.58" y="38.1" size="0.8128" layer="95" xref="yes"/>
-<pinref part="PROG3" gate="A" pin="4"/>
-<wire x1="58.42" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="M3_COL0_SINK" class="0">
@@ -12698,6 +12674,30 @@ Metric Code Size 5664</description>
 <wire x1="35.56" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="MOSI2/MISO3" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="PB4"/>
+<wire x1="73.66" y1="91.44" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<label x="73.66" y="83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<label x="35.56" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="PROG3" gate="A" pin="1"/>
+<wire x1="35.56" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MOSI3/MISO4" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="PB3"/>
+<wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
+<label x="68.58" y="83.82" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<label x="68.58" y="38.1" size="0.8128" layer="95" xref="yes"/>
+<pinref part="PROG3" gate="A" pin="4"/>
+<wire x1="58.42" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12907,7 +12907,7 @@ Metric Code Size 5664</description>
 <wire x1="50.8" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="9/MISO" class="0">
+<net name="MOSI3/MISO4" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="PB4"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
@@ -12919,7 +12919,7 @@ Metric Code Size 5664</description>
 <wire x1="35.56" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI1/MISO2" class="0">
+<net name="10/MISO" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="PB3"/>
 <wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
