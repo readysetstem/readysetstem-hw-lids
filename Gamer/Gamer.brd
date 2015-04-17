@@ -2101,7 +2101,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="25.0698" y1="47.117" x2="25.114834375" y2="46.9793" width="0.2032" layer="1"/>
 <wire x1="58.293" y1="16.129" x2="63.627" y2="16.891" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="3V3">
+<signal name="VCC">
 <contactref element="C2" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="U1" pad="1"/>
@@ -4134,9 +4134,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="99.3902" y="12.9794" extent="1-16" drill="0.3302"/>
 <wire x1="144.907" y1="57.2516" x2="133.35" y2="60.8076" width="0" layer="19" extent="1-1"/>
 <wire x1="77.8764" y1="30.0482" x2="94.7674" y2="12.8016" width="0" layer="19" extent="1-16"/>
-</signal>
-<signal name="N$1">
-<contactref element="START" pad="4"/>
 </signal>
 <signal name="S2IN">
 <contactref element="PROG1" pad="1"/>

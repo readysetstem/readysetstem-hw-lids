@@ -10854,6 +10854,7 @@ Metric Code Size 5664</description>
 <plain>
 <text x="96.52" y="96.52" size="3.81" layer="91">RasPi Header</text>
 <text x="187.96" y="76.2" size="3.81" layer="91">Accelerometer</text>
+<text x="97.79" y="159.766" size="1.778" layer="91" rot="R90">3.3V</text>
 </plain>
 <instances>
 <instance part="UP" gate="G$1" x="45.72" y="76.2"/>
@@ -10980,7 +10981,7 @@ Metric Code Size 5664</description>
 <junction x="83.82" y="147.32"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
 <wire x1="160.02" y1="132.08" x2="165.1" y2="132.08" width="0.1524" layer="91"/>
@@ -11013,12 +11014,9 @@ Metric Code Size 5664</description>
 <wire x1="218.44" y1="134.62" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="96.52" y="157.48" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="106.68" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="P1" gate="A" pin="1"/>
-<wire x1="99.06" y1="157.48" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="157.48" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
-<junction x="99.06" y="157.48"/>
 <pinref part="SUPPLY29" gate="G$1" pin="VCC"/>
 </segment>
 </net>
@@ -11366,12 +11364,6 @@ Metric Code Size 5664</description>
 <label x="124.46" y="124.46" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="START" gate="G$1" pin="4"/>
-<wire x1="60.96" y1="147.32" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
@@ -11507,7 +11499,7 @@ Metric Code Size 5664</description>
 <label x="144.78" y="116.84" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 <pinref part="U2" gate="G$1" pin="VCC"/>
@@ -11954,7 +11946,7 @@ Metric Code Size 5664</description>
 <label x="144.78" y="116.84" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
 <pinref part="U4" gate="G$1" pin="VCC"/>
@@ -12401,7 +12393,7 @@ Metric Code Size 5664</description>
 <label x="144.78" y="116.84" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 <pinref part="U6" gate="G$1" pin="VCC"/>
@@ -12848,7 +12840,7 @@ Metric Code Size 5664</description>
 <label x="144.78" y="116.84" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY23" gate="G$1" pin="VCC"/>
 <pinref part="U8" gate="G$1" pin="VCC"/>
