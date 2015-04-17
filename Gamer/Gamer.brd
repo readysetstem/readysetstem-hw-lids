@@ -174,7 +174,66 @@
 <wire x1="-0.563175" y1="19.988625" x2="0" y2="19.05" width="0.0254" layer="20"/>
 <wire x1="0" y1="19.05" x2="0" y2="5.08" width="0.0254" layer="20"/>
 <wire x1="0" y1="58.42" x2="0" y2="44.45" width="0.0254" layer="20"/>
-<rectangle x1="106.045" y1="37.465" x2="153.67" y2="42.545" layer="43"/>
+<rectangle x1="121.92" y1="38.1" x2="164.465" y2="43.18" layer="43"/>
+<polygon width="0.04571875" layer="21">
+<vertex x="27.545" y="14.165"/>
+<vertex x="29.237" y="13.661"/>
+<vertex x="29.705" y="15.353"/>
+<vertex x="28.013" y="15.857"/>
+</polygon>
+<polygon width="0.04571875" layer="21">
+<vertex x="28.247" y="13.715"/>
+<vertex x="28.049" y="13.031"/>
+<vertex x="29.885" y="12.545"/>
+<vertex x="30.389" y="14.345"/>
+<vertex x="29.705" y="14.525"/>
+<vertex x="29.381" y="13.391"/>
+</polygon>
+<polygon width="0.04571875" layer="21">
+<vertex x="32.93708125" y="9.197"/>
+<vertex x="34.73131875" y="10.993759375"/>
+<vertex x="36.599" y="9.125"/>
+<vertex x="34.82131875" y="7.305559375"/>
+</polygon>
+<polygon width="0.04571875" layer="21">
+<vertex x="33.755" y="8.009"/>
+<vertex x="34.817" y="6.947"/>
+<vertex x="35.843" y="7.973"/>
+<vertex x="36.599" y="7.217"/>
+<vertex x="34.673" y="5.291"/>
+<vertex x="32.855" y="7.109"/>
+</polygon>
+<polygon width="0.04571875" layer="21">
+<vertex x="36.653" y="11.123"/>
+<vertex x="38.651" y="9.125"/>
+<vertex x="37.697" y="8.171"/>
+<vertex x="38.651" y="7.217"/>
+<vertex x="36.725" y="5.291"/>
+<vertex x="35.897" y="6.119"/>
+<vertex x="36.995" y="7.217"/>
+<vertex x="36.041" y="8.171"/>
+<vertex x="36.995" y="9.125"/>
+<vertex x="35.825" y="10.295"/>
+</polygon>
+<polygon width="0.04571875" layer="21">
+<vertex x="33.359" y="15.587"/>
+<vertex x="35.141" y="16.091"/>
+<vertex x="35.645" y="14.255"/>
+<vertex x="33.863" y="13.751"/>
+</polygon>
+<polygon width="0.04571875" layer="21">
+<vertex x="34.133" y="16.001"/>
+<vertex x="33.953" y="16.721"/>
+<vertex x="35.771" y="17.207"/>
+<vertex x="36.275" y="15.407"/>
+<vertex x="35.591" y="15.209"/>
+<vertex x="35.285" y="16.325"/>
+</polygon>
+<wire x1="33.773" y1="20.573" x2="32.855" y2="11.267" width="1.152" layer="21" curve="80" cap="flat"/>
+<wire x1="36.995" y1="23.291" x2="33.7334" y2="20.5298" width="1.152" layer="21" curve="15" cap="flat"/>
+<text x="12.065" y="2.54" size="1.4224" layer="22" font="vector">Rev-01a
+(c) 2015 RaspberrySTEM</text>
+<text x="123.825" y="39.37" size="2.286" layer="22" font="vector">RaspberrySTEM GAMER</text>
 </plain>
 <libraries>
 <library name="AccelBreakout">
@@ -1793,7 +1852,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="P1" library="HeaderConnectorBoard" package="2X20" value="" x="134.62" y="45.72"/>
 <element name="U2" library="LED_Matrix" package="ATTINY48" value="ATTINY48" x="60.96" y="48.26"/>
 <element name="U3" library="LED_Matrix" package="ULN2803AFWG" value="ULN2803AFWG" x="41.91" y="43.815" smashed="yes">
-<attribute name="NAME" x="38.735" y="41.91" size="1.27" layer="21"/>
+<attribute name="NAME" x="52.705" y="53.34" size="1.27" layer="21" font="vector"/>
 </element>
 <element name="R3" library="resistor" package="R0603" value="10k" x="69.85" y="51.435" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.961" y="50.546" size="1.27" layer="25" font="vector" rot="R90"/>
@@ -1812,39 +1871,39 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U4" library="LED_Matrix" package="ATTINY48" value="ATTINY48" x="92.71" y="48.26"/>
 <element name="U5" library="LED_Matrix" package="ULN2803AFWG" value="ULN2803AFWG" x="73.66" y="43.815" smashed="yes">
-<attribute name="NAME" x="70.485" y="41.91" size="1.27" layer="21"/>
+<attribute name="NAME" x="84.455" y="53.34" size="1.27" layer="21" font="vector"/>
 </element>
 <element name="R4" library="resistor" package="R0603" value="10k" x="101.6" y="51.435" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.711" y="50.546" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="100.711" y="50.546" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C6" library="resistor" package="C0603" value="1uF" x="101.6" y="46.99" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.838" y="46.101" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="100.838" y="46.101" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="PROG2" library="Gamer" package="2X03" value="NONE" x="124.46" y="58.42" rot="R270"/>
 <element name="J3" library="LED_Matrix" package="HEADER-1X8" value="HEADER-1X8" x="88.265" y="59.6138"/>
 <element name="J4" library="LED_Matrix" package="HEADER-1X8" value="HEADER-1X8" x="88.265" y="35.6108"/>
 <element name="U6" library="LED_Matrix" package="ATTINY48" value="ATTINY48" x="60.96" y="16.51"/>
 <element name="U7" library="LED_Matrix" package="ULN2803AFWG" value="ULN2803AFWG" x="41.91" y="12.065" smashed="yes">
-<attribute name="NAME" x="38.735" y="10.16" size="1.27" layer="21"/>
+<attribute name="NAME" x="52.705" y="21.59" size="1.27" layer="21" font="vector"/>
 </element>
 <element name="R5" library="resistor" package="R0603" value="10k" x="69.85" y="19.685" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.961" y="18.796" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="68.961" y="18.796" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C7" library="resistor" package="C0603" value="1uF" x="69.85" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.088" y="14.351" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="69.088" y="14.351" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="PROG3" library="Gamer" package="2X03" value="NONE" x="134.62" y="58.42" rot="R270"/>
 <element name="J5" library="LED_Matrix" package="HEADER-1X8" value="HEADER-1X8" x="56.515" y="27.8638"/>
 <element name="J6" library="LED_Matrix" package="HEADER-1X8" value="HEADER-1X8" x="56.515" y="3.8608"/>
 <element name="U8" library="LED_Matrix" package="ATTINY48" value="ATTINY48" x="92.71" y="16.51"/>
 <element name="U9" library="LED_Matrix" package="ULN2803AFWG" value="ULN2803AFWG" x="73.66" y="12.065" smashed="yes">
-<attribute name="NAME" x="70.485" y="10.16" size="1.27" layer="21"/>
+<attribute name="NAME" x="84.455" y="21.59" size="1.27" layer="21" font="vector"/>
 </element>
 <element name="R6" library="resistor" package="R0603" value="10k" x="101.6" y="19.685" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.711" y="18.796" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="100.711" y="18.796" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C8" library="resistor" package="C0603" value="1uF" x="101.6" y="15.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.838" y="14.351" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="100.838" y="14.351" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="PROG4" library="Gamer" package="2X03" value="NONE" x="144.78" y="58.42" rot="R270"/>
 <element name="J7" library="LED_Matrix" package="HEADER-1X8" value="HEADER-1X8" x="88.265" y="27.8638"/>
@@ -4103,4 +4162,10 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
