@@ -11581,7 +11581,7 @@ Metric Code Size 5664</description>
 <wire x1="50.8" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="9/MISO" class="0">
+<net name="S2IN" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB4"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
@@ -11593,7 +11593,7 @@ Metric Code Size 5664</description>
 <wire x1="50.8" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI1/MISO2" class="0">
+<net name="10/MOSI" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB3"/>
 <wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
@@ -12028,7 +12028,7 @@ Metric Code Size 5664</description>
 <wire x1="50.8" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI1/MISO2" class="0">
+<net name="S3IN" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="PB4"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
@@ -12254,7 +12254,7 @@ Metric Code Size 5664</description>
 <wire x1="35.56" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI2/MISO3" class="0">
+<net name="S2IN" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="PB3"/>
 <wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
@@ -12689,7 +12689,7 @@ Metric Code Size 5664</description>
 <wire x1="35.56" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI2/MISO3" class="0">
+<net name="S4IN" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PB4"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
@@ -12701,7 +12701,7 @@ Metric Code Size 5664</description>
 <wire x1="35.56" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI3/MISO4" class="0">
+<net name="S3IN" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PB3"/>
 <wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
@@ -12922,7 +12922,7 @@ Metric Code Size 5664</description>
 <wire x1="50.8" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOSI3/MISO4" class="0">
+<net name="9/MISO" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="PB4"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
@@ -12934,7 +12934,7 @@ Metric Code Size 5664</description>
 <wire x1="35.56" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="10/MISO" class="0">
+<net name="S4IN" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="PB3"/>
 <wire x1="68.58" y1="91.44" x2="68.58" y2="83.82" width="0.1524" layer="91"/>
