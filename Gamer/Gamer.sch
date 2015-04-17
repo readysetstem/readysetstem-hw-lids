@@ -10895,7 +10895,7 @@ Metric Code Size 5664</description>
 <busses>
 </busses>
 <nets>
-<net name="EEE" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="RIGHT" gate="G$1" pin="4"/>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -11540,7 +11540,7 @@ Metric Code Size 5664</description>
 <wire x1="68.58" y1="40.64" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EEE" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -11987,7 +11987,7 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY12" gate="G$1" pin="VCC"/>
 </segment>
 </net>
-<net name="EEE" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -12434,7 +12434,7 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY22" gate="G$1" pin="VCC"/>
 </segment>
 </net>
-<net name="EEE" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="GND"/>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -12881,7 +12881,7 @@ Metric Code Size 5664</description>
 <pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
 </segment>
 </net>
-<net name="EEE" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="GND"/>
 <pinref part="GND16" gate="1" pin="GND"/>
