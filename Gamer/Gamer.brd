@@ -473,6 +473,17 @@ chip</description>
 <wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
 </package>
+<package name="TESTPAD">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-1.524" y1="1.524" x2="1.524" y2="1.524" width="0.0508" layer="39"/>
+<wire x1="1.524" y1="1.524" x2="1.524" y2="-1.524" width="0.0508" layer="39"/>
+<wire x1="1.524" y1="-1.524" x2="-1.524" y2="-1.524" width="0.0508" layer="39"/>
+<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="1.524" width="0.0508" layer="39"/>
+<smd name="1" x="0" y="0" dx="2.54" dy="2.54" layer="1"/>
+<text x="-0.889" y="2.159" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.889" y="-3.302" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="LED_Matrix">
@@ -1661,6 +1672,46 @@ chip</description>
 </package>
 </packages>
 </library>
+<library name="microchip">
+<description>&lt;b&gt;Microchip PIC Microcontrollers and other Devices&lt;/b&gt;&lt;p&gt;
+Based on the following sources :
+&lt;ul&gt;
+&lt;li&gt;Microchip Data Book, 1993
+&lt;li&gt;THE EMERGING WORLD STANDARD, 1995/1996
+&lt;li&gt;Microchip, Technical Library CD-ROM, June 1998
+&lt;li&gt;www.microchip.com
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TSSOP8">
+<description>&lt;b&gt;Thin Shrink Small Outline Package&lt;/b&gt;&lt;p&gt;
+package type ST</description>
+<wire x1="1.4" y1="-2.15" x2="1.4" y2="2.15" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="2.15" x2="-1.4" y2="2.15" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="2.15" x2="-1.4" y2="-2.15" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-2.15" x2="1.4" y2="-2.15" width="0.2032" layer="21"/>
+<circle x="-0.65" y="-1.625" radius="0.325" width="0" layer="21"/>
+<smd name="1" x="-0.975" y="-2.925" dx="0.35" dy="1.2" layer="1"/>
+<smd name="2" x="-0.325" y="-2.925" dx="0.35" dy="1.2" layer="1"/>
+<smd name="3" x="0.325" y="-2.925" dx="0.35" dy="1.2" layer="1"/>
+<smd name="4" x="0.975" y="-2.925" dx="0.35" dy="1.2" layer="1"/>
+<smd name="5" x="0.975" y="2.925" dx="0.35" dy="1.2" layer="1"/>
+<smd name="6" x="0.325" y="2.925" dx="0.35" dy="1.2" layer="1"/>
+<smd name="7" x="-0.325" y="2.925" dx="0.35" dy="1.2" layer="1"/>
+<smd name="8" x="-0.975" y="2.925" dx="0.35" dy="1.2" layer="1"/>
+<text x="-1.625" y="-2.925" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.925" y="-3.25" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.1" y1="-3.2" x2="-0.85" y2="-2.2" layer="51"/>
+<rectangle x1="-0.45" y1="-3.2" x2="-0.2" y2="-2.2" layer="51"/>
+<rectangle x1="0.2" y1="-3.2" x2="0.45" y2="-2.2" layer="51"/>
+<rectangle x1="0.85" y1="-3.2" x2="1.1" y2="-2.2" layer="51"/>
+<rectangle x1="0.85" y1="2.2" x2="1.1" y2="3.2" layer="51"/>
+<rectangle x1="0.2" y1="2.2" x2="0.45" y2="3.2" layer="51"/>
+<rectangle x1="-0.45" y1="2.2" x2="-0.2" y2="3.2" layer="51"/>
+<rectangle x1="-1.1" y1="2.2" x2="-0.85" y2="3.2" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1945,6 +1996,16 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R1" library="AccelBreakout" package="R0603" value="10K" x="108.331" y="34.798" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.648" y="34.29" size="1.016" layer="25" font="vector"/>
 </element>
+<element name="U10" library="microchip" package="TSSOP8" value="CAT24C02" x="149.225" y="52.07" smashed="yes" rot="R270">
+<attribute name="OC_NEWARK" value="96K4081" x="149.225" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="24LC64X-I/ST" x="149.225" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="MICROCHIP" x="149.225" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1296582" x="149.225" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="146.3" y="53.695" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="145.975" y="49.145" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="WP" library="Gamer" package="TESTPAD" value="TESTPAD" x="155.575" y="50.8"/>
+<element name="GND" library="Gamer" package="TESTPAD" value="TESTPAD" x="160.02" y="50.8"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2106,10 +2167,20 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="0.635" y="5.08" curve="90"/>
 <vertex x="5.08" y="0.635"/>
 </polygon>
-<wire x1="65.21" y1="16.91" x2="68.58" y2="16.129" width="0" layer="19" extent="1-1"/>
+<contactref element="U10" pad="4"/>
+<contactref element="U10" pad="1"/>
+<contactref element="U10" pad="2"/>
+<contactref element="GND" pad="1"/>
+<contactref element="U10" pad="3"/>
+<wire x1="146.3" y1="52.395" x2="146.3" y2="53.045" width="0" layer="19" extent="1-1"/>
+<wire x1="146.3" y1="51.745" x2="146.3" y2="52.395" width="0" layer="19" extent="1-1"/>
+<wire x1="146.3" y1="51.095" x2="146.3" y2="51.745" width="0" layer="19" extent="1-1"/>
+<wire x1="121.92" y1="55.88" x2="146.3" y2="51.095" width="0" layer="19" extent="1-1"/>
+<wire x1="130.81" y1="55.88" x2="121.92" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="148.59" y1="55.88" x2="139.7" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="68.58" y1="16.129" x2="65.21" y2="16.91" width="0" layer="19" extent="1-1"/>
 <wire x1="68.58" y1="47.879" x2="65.21" y2="48.66" width="0" layer="19" extent="1-1"/>
-<wire x1="139.7" y1="55.88" x2="148.59" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="121.92" y1="55.88" x2="130.81" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="160.02" y1="50.8" x2="26.543" y2="21.463" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="C2" pad="1"/>
@@ -2348,6 +2419,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="131.3942" y1="53.5178" x2="123.0376" y2="53.5178" width="0.2032" layer="1"/>
 <wire x1="131.9276" y1="54.0512" x2="131.3942" y2="53.5178" width="0.2032" layer="1"/>
 <wire x1="131.9276" y1="60.9854" x2="131.9276" y2="54.0512" width="0.2032" layer="1"/>
+<contactref element="U10" pad="8"/>
+<wire x1="152.15" y1="53.045" x2="52.0954" y2="19.3802" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="C3" pad="1"/>
@@ -2467,6 +2540,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="114.681" y1="43.561" x2="114.681" y2="36.2712" width="0.2032" layer="16"/>
 <wire x1="115.57" y1="44.45" x2="114.681" y2="43.561" width="0.2032" layer="16"/>
 <via x="110.9472" y="33.0708" extent="1-16" drill="0.3302"/>
+<contactref element="U10" pad="6"/>
+<wire x1="115.57" y1="44.45" x2="152.15" y2="51.745" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="4">
 <contactref element="B7" pad="3"/>
@@ -4219,6 +4294,14 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="21">
 <contactref element="J9" pad="39"/>
+</signal>
+<signal name="N$1">
+<contactref element="U10" pad="7"/>
+<contactref element="WP" pad="1"/>
+<wire x1="155.575" y1="50.8" x2="152.15" y2="52.395" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="4/SDA">
+<contactref element="U10" pad="5"/>
 </signal>
 </signals>
 </board>
