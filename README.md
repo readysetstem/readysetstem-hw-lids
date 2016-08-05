@@ -1,4 +1,4 @@
-raspberrystem-hw-lids
+readysetstem-hw-lids
 ===========================
 
-RaspberrySTEM(TM) Lids hardware schematics and related documents
+Ready Set STEM(TM) Lids hardware schematics and related documents
