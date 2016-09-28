@@ -255,7 +255,7 @@
 <text x="24.765" y="11.43" size="1.143" layer="21" font="vector" align="bottom-right">26</text>
 <text x="26.035" y="8.89" size="1.143" layer="21" font="vector">GND</text>
 <text x="26.035" y="24.13" size="1.143" layer="21" font="vector">ID</text>
-<text x="12.065" y="33.655" size="1.778" layer="22" font="vector" rot="MR270" align="center">Rev-02a
+<text x="12.065" y="33.655" size="1.778" layer="22" font="vector" rot="MR270" align="center">Rev-02b
 (c) 2016 Ready Set STEM</text>
 <hole x="13.335" y="64.77" drill="3.2639"/>
 <hole x="26.67" y="64.77" drill="3.2639"/>
